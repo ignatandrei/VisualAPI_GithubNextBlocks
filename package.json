@@ -10,7 +10,7 @@
   "dependencies": {
     "@githubnext/blocks": "2.3.5",
 	"@blockly/plugin-cross-tab-copy-paste": "2.0.2",
-    "@blockly/shadow-block-converter": "2.0.10",
+    
     "@blockly/workspace-backpack": "3.0.2",
     "@blockly/workspace-content-highlight": "2.0.2",
     "@blockly/zoom-to-fit": "3.0.2",
