@@ -18,7 +18,7 @@ import ShowCodeAndXML from './ShowCodeAndXML';
 // import { BlockReact, CategoryReact } from '../../BlocklyFields';
 import {ContentHighlight} from '@blockly/workspace-content-highlight';
 import {ZoomToFitControl} from '@blockly/zoom-to-fit';
-import {shadowBlockConversionChangeListener} from '@blockly/shadow-block-converter'; 
+// import {shadowBlockConversionChangeListener} from '@blockly/shadow-block-converter'; 
 import {CrossTabCopyPaste} from '@blockly/plugin-cross-tab-copy-paste';
 import {Backpack} from '@blockly/workspace-backpack';
 import ExistingSwagger from '../Swagger/ExistingSwagger';
@@ -939,7 +939,7 @@ Blockly.setLocale(locale);
             const zoomToFit = new ZoomToFitControl(primaryWorkspace.current);
             zoomToFit.init();
 
-            primaryWorkspace.current.addChangeListener(shadowBlockConversionChangeListener);
+            //primaryWorkspace.current.addChangeListener(shadowBlockConversionChangeListener);
 
             const options = {
                 contextMenu: true,
